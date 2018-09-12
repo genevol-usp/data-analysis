@@ -11,6 +11,4 @@ grep YRI  samples_all > yri_samples
 # geracao de arquivo com hw e outro com frquencias
 vcftools --gzvcf $datadir/$file --freq --max-alleles 2 --chr 21  --out chr21
 vcftools --gzvcf $datadir/$file --chr 21 --max-alleles 2 --hardy  --out chr21
-vcftools --gzvcf $datadir/$file --chr 21 --keep-only-indels --max-alleles 2
---hardy  --out chr21_indels
-
+vcftools --gzvcf $datadir/$file --chr 21 --keep-only-indels --max-alleles 2 --hardy --out chr21_indels
