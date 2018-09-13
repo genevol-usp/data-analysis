@@ -7,7 +7,7 @@ file=ALL.chr21.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz
 
 # montar lista de amostras YRI para analise.
 grep YRI  samples_all > yri_samples
-#awk '$2 ~ /YRI/ {print $1}' ./data/sample_info.tsv > yri_samples
+#awk '$2 ~ /YRI/ {print $1}' ./sample_info.tsv > yri_samples
 
 
 # geracao de arquivo com hw e outro com frquencias
